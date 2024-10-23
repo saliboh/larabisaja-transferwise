@@ -1,0 +1,23 @@
+{
+  "name": "saliboh/larabisaja-transferwise",
+  "description": "A Laravel service for Wise API integration.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "WiseServicePackage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Andrean Earl Erasmo",
+      "email": "shufhadha@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "ramsey/uuid": "^4.0",
+    "ext-json": "*"
+  }
+}
