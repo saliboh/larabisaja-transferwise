@@ -7,7 +7,7 @@ A Laravel package to integrate with Wise (formerly TransferWise) API.
 1. Install via composer:
 
 ```bash
-composer require your-vendor-name/wise-service
+composer require saliboh/larabisaja-transferwise:^1.0
 ```
 
 2. Publish the configuration file:
