@@ -18,6 +18,15 @@
     "php": ">=8.0",
     "guzzlehttp/guzzle": "^7.0",
     "ramsey/uuid": "^4.0",
-    "ext-json": "*"
-  }
+    "ext-json": "*",
+    "saliboh/larabisaja-transferwise": "dev-main"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/saliboh/larabisaja-transferwise"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
